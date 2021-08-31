@@ -62,16 +62,17 @@ body {
   left: 34%;
   width: 100px;
   height: 100px;
-  padding: 0.3em;
   border-radius: 50%;
-  background: #fff;
+  border: 5px solid #fff;
+  background: url(img/Oval.png) no-repeat;
+  background-size: cover;
   overflow: hidden;
 }
-.avatar_photo img {
-  height: 100%;
+/* .avatar_photo img {
+  height: auto;
   width: 100%;
   border-radius: 50%;
-}
+} */
 .avatar_info {
   display: flex;
   flex-direction: column;
@@ -126,19 +127,12 @@ body {
     max-width: 245px;
     max-height: 350px;
   }
+  .avatar_info {
+    padding-top: 22%;
+  }
 }
 @media (max-width: 450px) and (min-width: 290px) {
   .container-avatar {
     max-width: 325px;
-  }
-}
-@media (max-width: 2560px) and (min-width: 2000px) {
-  .container-oval {
-    bottom: calc(38vh*3);
-    right: calc(55vw*3); 
-  }
-  .container-oval_bottom {
-    top: calc(49vh*3);
-    left: calc(52vw*3);
   }
 }
