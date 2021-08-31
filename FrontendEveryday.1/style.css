@@ -132,13 +132,3 @@ body {
     max-width: 325px;
   }
 }
-@media (max-width: 2560px) and (min-width: 2000px) {
-  .container-oval {
-    bottom: calc(38vh*3);
-    right: calc(55vw*3); 
-  }
-  .container-oval_bottom {
-    top: calc(49vh*3);
-    left: calc(52vw*3);
-  }
-}
